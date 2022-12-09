@@ -13,7 +13,7 @@ console.log(typefaceFont)
  * Base
  */
 // Debug
-const gui = new dat.GUI()
+// const gui = new dat.GUI()
 
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
@@ -39,7 +39,7 @@ const textureLoader = new THREE.TextureLoader()
     (font) =>
     {
         const textGeometry = new TextGeometry(
-            'Hello World',
+            'Hi Wen Xin',
             {
                 font: font,
                 size: 0.5,
